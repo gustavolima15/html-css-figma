@@ -19,3 +19,8 @@ span {
 a {
     color: dodgerblue;
 }
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+}

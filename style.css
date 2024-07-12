@@ -12,11 +12,20 @@ body {
     color: #F6F6F6;
 }
 
-.titulo-destaque {
-    color: #22D4FD;
+.cabecalho {
+    padding: 2% 0% 0% 15%;
 }
-span {
-    color: #22D4FD;
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600px;
+    color:#22D4FD;
 }
 
 .apresentacao {
@@ -38,6 +47,12 @@ span {
     font-family: "Krona One", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+.titulo-destaque {
+    color: #22D4FD;
+}
+span {
+    color: #22D4FD;
 }
 
 .apresentacao__conteudo__texto {

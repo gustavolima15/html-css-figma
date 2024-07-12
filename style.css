@@ -7,20 +7,20 @@
 }
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #000000;
     color: #F6F6F6;
 }
 
 .titulo-destaque {
-    color: #22D4FD; 
+    color: #22D4FD;
 }
 span {
-    color: #22D4FD; 
+    color: #22D4FD;
 }
 
 .apresentacao {
-    margin: 10% 15%;
+    padding: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -73,4 +73,18 @@ span {
     text-decoration: none;
     color: #F6F6F6;
     font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao__links__link:hover{
+    background-color: #272727;
+}
+
+
+.rodape {
+    padding: 24px;
+    color: #000000;
+    background-color: #22D4FD;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
 }
